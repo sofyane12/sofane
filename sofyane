@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <fieldset>
+        <div>
+        <u><h1><label for="title-fieldset"></label>délibration fin de l'année</h1></u>
+    </div>
+    <table>
+    <p> <form>année de formation
+            <select id="country" name="country">
+            <option value="au">1ére année</option>
+            <option value="ca">2éme année</option>
+            </select>
+        </form></p>
+        
+    <label for="text">redoublant</label>
+        <input type="checkbox"><br>
+    <p><label for="text">moyen general</label><input type="text"><br></p>
+        <p><label for="text">nombre d'absence</label><input type="text"></p>
+        <main>
+            <button class="button button1">ok</button>
+    </main>
+</table>
+        
+
+    </fieldset>
+</body>
+</html>
